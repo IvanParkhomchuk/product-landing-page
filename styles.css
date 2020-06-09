@@ -1,7 +1,6 @@
 body {
   background-color: #eee;
   font-family: Arial, Helvetica, sans-serif;
-  height: 2000px;
 }
 
 #logo {
@@ -16,7 +15,7 @@ body {
   display: flex;
   position: fixed;
   width: 100%;
-  background-color: #989898;
+  background-color: #2C75FF;
   left: 0px;
   top: 0px;
 }
@@ -58,9 +57,9 @@ a {
   margin: 10px 20px;
   position: relative;
   overflow: hidden;
-  border: 2px solid #cacaca;
+  border: 2px solid #fff;
   font-family: 'Montserrat', sans-serif; 
-  color: #cacaca;
+  color: #fff;
   transition: .2s ease-in-out;
 }
 .button:before {
@@ -74,7 +73,7 @@ a {
   transform: skewX(-45deg);
 }
 .button:hover {
-  background: #cacaca;
+  background: #fff;
   color: #fff;
   transform: translateY(-7px);
 }
@@ -96,15 +95,15 @@ a {
 
 #submit {
   background-color: white;
-  border-color: rgb(0, 89, 255);
+  border-color: #2C75FF;
   color: black;
   font-size: 18px;
   transition: .3s;
 }
 
 #submit:hover {
-  background-color: rgb(0, 89, 255);
-  border-color: rgb(0, 89, 255);
+  background-color: #2C75FF;
+  border-color: #2C75FF;
   color: white;
   font-size: 18px;
   transform: translateY(-3px);
@@ -126,4 +125,74 @@ a {
   justify-content: center;
   margin-top: 50px;
   padding-top: 50px;
+}
+
+.allConts {
+  display: flex;
+  justify-content: center;
+}
+
+.containers {
+  margin-top: 100px;
+  margin-right: 30px;
+  border: solid;
+  border-color: #2C75FF;
+  text-align: center;
+  width: 320px;
+  height: 320px;
+}
+
+.contName {
+  background-color: #2C75FF;
+  padding: 15px;
+  font-size: 19px;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+ul {
+  list-style-type: none;
+  margin-right: 36px;
+  margin-top: 5px;
+  font-size: 17px;
+}
+
+li {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.buttons {
+  background-color: white;
+  border-color: #2C75FF;
+  color: black;
+  font-size: 18px;
+  transition: .3s;
+}
+
+.buttons:hover {
+  background-color: #2C75FF;
+  border-color: #2C75FF;
+  color: white;
+  font-size: 18px;
+  transform: translateY(-3px);
+}
+
+#Pricing {
+
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  background-color: #2C75FF;
+  margin: 150px auto 0px;
+  padding-top: 10px;
+  text-align: right;
+  color: rgba(0,0,0,.5);
+  width: 50%;
 }
