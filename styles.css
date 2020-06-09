@@ -107,6 +107,7 @@ a {
   color: white;
   font-size: 18px;
   transform: translateY(-3px);
+  cursor: pointer;
 }
 
 #page {
@@ -180,6 +181,7 @@ li {
   color: white;
   font-size: 18px;
   transform: translateY(-3px);
+  cursor: pointer;
 }
 
 #Pricing {
