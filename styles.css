@@ -218,8 +218,10 @@ a {
 
 @media (max-width: 460px) {
   .containers {
-    margin-right: 16px;
-    margin-left: 16px;
+    flex-direction: column;
+    align-content: center;
+    margin: auto;
+    margin-top: 15px;
   }
 }
 
